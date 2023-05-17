@@ -42,22 +42,22 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\InkEditorUtils.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Library\InkLibrary.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Compiler\InkCompiler.cs" />
      <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Player Window\InkHistoryContentItem.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\File Icons\InkBrowserIcons.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Compiler\Auto Compiler\InkPostProcessor.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Startup Window\InkUnityIntegrationStartupWindow.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Settings\InkSettingsEditor.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Ink Inspector\InkInspector.cs" />
      <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Ink Inspector\DefaultAssetEditor.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Ink Inspector\DefaultAssetInspector.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Compiler\UnityInkFileHandler.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Library\InkCompilerLog.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Settings\InkSettingsEditor.cs" />
      <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Library\InkFile.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Build Validation\InkPreBuildValidationCheck.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Library\InkLibrary.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\File Icons\InkBrowserIcons.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Ink Inspector\InkInspector.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Library\InkCompilerLog.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Startup Window\InkUnityIntegrationStartupWindow.cs" />
      <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Settings\InkSettings.cs" />
      <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Player Window\InkPlayerWindow.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Compiler\UnityInkFileHandler.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Ink Inspector\DefaultAssetInspector.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Compiler\Auto Compiler\InkPostProcessor.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Compiler\InkCompiler.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\Build Validation\InkPreBuildValidationCheck.cs" />
      <Folder Include="Assets\ANDREW\Kolyan\Ink\Editor\Tools\File Icons" />
      <Folder Include="Assets\ANDREW\Kolyan\Ink\Editor\Core\Ink Settings" />
      <None Include="Assets\ANDREW\Kolyan\Ink\Editor\InkEditor.asmdef" />

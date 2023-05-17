@@ -42,11 +42,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ANDREW\Scripts\CoinTrigger.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\DialogueVariables.cs" />
      <Compile Include="Assets\ANDREW\Scripts\BulletChar.cs" />
      <Compile Include="Assets\ANDREW\Scripts\Healthbar.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\EndMenu.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\ScenesManager.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\CameraController2.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\PauseFX.cs" />
@@ -54,13 +58,17 @@
      <Compile Include="Assets\Kolyan\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\ANDREW\Scripts\Spear.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\InputManager.cs" />
      <Compile Include="Assets\ANDREW\Scripts\Movement.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\HideCollider.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\VolumeSettings.cs" />
      <Compile Include="Assets\Scripts\DeathScreen.cs" />
      <Compile Include="Assets\ANDREW\Scripts\SoundManager.cs" />
@@ -75,8 +83,10 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Scripts\Scene.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Scripts\DialogueTriger.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\ANDREW\Kolyan\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\Pause.cs" />
@@ -103,16 +113,6 @@
      <Compile Include="Assets\ANDREW\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\LevelChangerButton.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\HideCollider.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\CameraController2.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\ScenesManager.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\DialogueVariables.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\DialogueTriger.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\DialogueManager.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\ANDREW\Kolyan\Scripts\InputManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Aseprite2Unity" />
      <Folder Include="Assets\ANDREW\Kolyan\Icons" />
@@ -984,9 +984,6 @@
      <Reference Include="Unity.Timeline">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
@@ -996,20 +993,20 @@
      <Reference Include="Unity.Burst.Editor">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.2D.IK.Editor">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.2D.Path.Editor">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.2D.Psdimporter.Editor">
-     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -1032,8 +1029,8 @@
      <Reference Include="Unity.2D.Tilemap.Extras.Editor">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.001">
-     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -1049,6 +1046,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Animation.Runtime">
      <HintPath>C:\Users\Никита\TopGame1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
